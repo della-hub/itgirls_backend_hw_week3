@@ -1,0 +1,142 @@
+Index: src/main/java/hw_week3/entity/Car.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package hw_week3.entity;\n\npublic class Car {\n\n    String carColor;\n    String carBrand;\n    static int count = 0;\n\n    public void carDrive() {\n        System.out.print(\"едет\");\n    }\n\n    public void carBrake() {\n        System.out.print(\"тормозит\");\n    }\n    public static void main(String[] args){\n        Car bmw = new Car();\n        bmw.carColor = \"green\";\n        bmw.carBrand = \"BMW\";\n\n        Car volkswagen = new Car();\n        volkswagen.carColor = \"black\";\n        volkswagen.carBrand = \"VW\";\n\n        Car skoda = new Car();\n        skoda.carColor = \"gray\";\n        skoda.carBrand = \"Skoda\";\n\n        System.out.println(\"В автопарке стоит машина марки \" + bmw.carBrand + \" цвета \"+ bmw.carColor );\n        System.out.println(\"В автопарке стоит машина марки \" + volkswagen.carBrand +\" цвета \"+ volkswagen.carColor);\n        System.out.println(\"В автопарке стоит машина марки \" + skoda.carBrand + \" цвета \"+ skoda.carColor );\n\n        System.out.print(\"Сейчас \"+bmw.carBrand+\" \");\n        bmw.carDrive();\n        System.out.print(\"Сейчас \"+volkswagen.carBrand+\" \");\n        volkswagen.carBrake();\n        System.out.print(\"Сейчас \"+skoda.carBrand+\" \");\n        skoda.carDrive();\n    }\n\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/hw_week3/entity/Car.java b/src/main/java/hw_week3/entity/Car.java
+--- a/src/main/java/hw_week3/entity/Car.java	(revision 41726e6dcd2d66e38e2bed7c2558db8a4c0dc08b)
++++ b/src/main/java/hw_week3/entity/Car.java	(date 1716064158699)
+@@ -4,15 +4,7 @@
+ 
+     String carColor;
+     String carBrand;
+-    static int count = 0;
+ 
+-    public void carDrive() {
+-        System.out.print("едет");
+-    }
+-
+-    public void carBrake() {
+-        System.out.print("тормозит");
+-    }
+     public static void main(String[] args){
+         Car bmw = new Car();
+         bmw.carColor = "green";
+@@ -22,20 +14,9 @@
+         volkswagen.carColor = "black";
+         volkswagen.carBrand = "VW";
+ 
+-        Car skoda = new Car();
+-        skoda.carColor = "gray";
+-        skoda.carBrand = "Skoda";
+-
+         System.out.println("В автопарке стоит машина марки " + bmw.carBrand + " цвета "+ bmw.carColor );
+         System.out.println("В автопарке стоит машина марки " + volkswagen.carBrand +" цвета "+ volkswagen.carColor);
+-        System.out.println("В автопарке стоит машина марки " + skoda.carBrand + " цвета "+ skoda.carColor );
+ 
+-        System.out.print("Сейчас "+bmw.carBrand+" ");
+-        bmw.carDrive();
+-        System.out.print("Сейчас "+volkswagen.carBrand+" ");
+-        volkswagen.carBrake();
+-        System.out.print("Сейчас "+skoda.carBrand+" ");
+-        skoda.carDrive();
+     }
+ 
+ }
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+new file mode 100644
+--- /dev/null	(date 1716064155367)
++++ b/README.md	(date 1716064155367)
+@@ -0,0 +1,11 @@
++Создайте своё приложение для автопарка. В нём должен быть класс «‎Машина», у каждой из которых будет свой цвет и марка. Создайте три разных машины и выведите на экран их цвет и марку.
++
++Подтверждение выполнения: пришлите скрин с запущенным приложением и результат в терминале.
++
++Добавьте своим машинам возможность ехать и тормозить с помощью методов. Продемонстрируйте это действие на экране для каждой машины, добавив название марки автомобиля.
++
++Подтверждение выполнения: пришлите скрин с запущенным приложением и результат в терминале.
++
++Добавьте два конструктора — один с параметрами, другой без них. Задайте свойства, цвет и марку, для автомобилей разными способами, используя оба конструктора. На экран выведите цвет и марку автомобиля.
++
++Подтверждение выполнения: пришлите скрин с запущенным приложением и результат в терминале.
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"e3aca2d5-621f-4cdf-b288-bfdde78b06ae\" name=\"Changes\" comment=\"first commit\">\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/hw_week3/entity/Car.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/hw_week3/entity/Car.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\"><![CDATA[{\n  \"lastFilter\": {\n    \"state\": \"OPEN\",\n    \"assignee\": \"della-hub\"\n  }\n}]]></component>\n  <component name=\"GithubPullRequestsUISettings\"><![CDATA[{\n  \"selectedUrlAndAccountId\": {\n    \"url\": \"https://github.com/della-hub/itgirls_backend_hw_week3.git\",\n    \"accountId\": \"391a841d-becf-4e57-aa59-e578a49a9956\"\n  }\n}]]></component>\n  <component name=\"ProjectColorInfo\"><![CDATA[{\n  \"associatedIndex\": 8\n}]]></component>\n  <component name=\"ProjectId\" id=\"2gbyY9IdOWcHbtBysW2Xxwp5DLp\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"Application.Car.executor\": \"Run\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"git-widget-placeholder\": \"master\",\n    \"kotlin-language-version-configured\": \"true\"\n  }\n}]]></component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"e3aca2d5-621f-4cdf-b288-bfdde78b06ae\" name=\"Changes\" comment=\"\" />\n      <created>1715980625286</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1715980625286</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"first commit\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1715981589017</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1715981589017</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"first commit\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1715982549379</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1715982549379</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"first commit\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1715983382656</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1715983382656</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"4\" />\n    <servers />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"first commit\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"first commit\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 41726e6dcd2d66e38e2bed7c2558db8a4c0dc08b)
++++ b/.idea/workspace.xml	(date 1716064342751)
+@@ -4,7 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="e3aca2d5-621f-4cdf-b288-bfdde78b06ae" name="Changes" comment="first commit">
++    <list default="true" id="e3aca2d5-621f-4cdf-b288-bfdde78b06ae" name="Changes" comment="method added">
++      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/main/java/hw_week3/entity/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw_week3/entity/Car.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -22,21 +23,21 @@
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+-  "lastFilter": {
+-    "state": "OPEN",
+-    "assignee": "della-hub"
++  <component name="GitHubPullRequestSearchHistory">{
++  &quot;lastFilter&quot;: {
++    &quot;state&quot;: &quot;OPEN&quot;,
++    &quot;assignee&quot;: &quot;della-hub&quot;
+   }
+-}]]></component>
+-  <component name="GithubPullRequestsUISettings"><![CDATA[{
+-  "selectedUrlAndAccountId": {
+-    "url": "https://github.com/della-hub/itgirls_backend_hw_week3.git",
+-    "accountId": "391a841d-becf-4e57-aa59-e578a49a9956"
++}</component>
++  <component name="GithubPullRequestsUISettings">{
++  &quot;selectedUrlAndAccountId&quot;: {
++    &quot;url&quot;: &quot;https://github.com/della-hub/itgirls_backend_hw_week3.git&quot;,
++    &quot;accountId&quot;: &quot;391a841d-becf-4e57-aa59-e578a49a9956&quot;
+   }
+-}]]></component>
+-  <component name="ProjectColorInfo"><![CDATA[{
+-  "associatedIndex": 8
+-}]]></component>
++}</component>
++  <component name="ProjectColorInfo">{
++  &quot;associatedIndex&quot;: 8
++}</component>
+   <component name="ProjectId" id="2gbyY9IdOWcHbtBysW2Xxwp5DLp" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectViewState">
+@@ -47,7 +48,7 @@
+   "keyToString": {
+     "Application.Car.executor": "Run",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "git-widget-placeholder": "master",
++    "git-widget-placeholder": "Merging master",
+     "kotlin-language-version-configured": "true"
+   }
+ }]]></component>
+@@ -89,6 +90,7 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="first commit" />
+-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
++    <MESSAGE value="method added" />
++    <option name="LAST_COMMIT_MESSAGE" value="method added" />
+   </component>
+ </project>
+\ No newline at end of file
