@@ -4,7 +4,15 @@ public class Car {
 
     String carColor;
     String carBrand;
+    static int count = 0;
 
+    public void carDrive() {
+        System.out.print("едет");
+    }
+
+    public void carBrake() {
+        System.out.print("тормозит");
+    }
     public static void main(String[] args){
         Car bmw = new Car();
         bmw.carColor = "green";
@@ -22,6 +30,12 @@ public class Car {
         System.out.println("В автопарке стоит машина марки " + volkswagen.carBrand +" цвета "+ volkswagen.carColor);
         System.out.println("В автопарке стоит машина марки " + skoda.carBrand + " цвета "+ skoda.carColor );
 
+        System.out.print("Сейчас "+bmw.carBrand+" ");
+        bmw.carDrive();
+        System.out.print("Сейчас "+volkswagen.carBrand+" ");
+        volkswagen.carBrake();
+        System.out.print("Сейчас "+skoda.carBrand+" ");
+        skoda.carDrive();
     }
 
 }
