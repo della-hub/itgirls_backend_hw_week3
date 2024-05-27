@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3aca2d5-621f-4cdf-b288-bfdde78b06ae" name="Changes" comment="both constructors added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw_week4/_main/_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw_week4/entity/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw_week4/entity/Ship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw_week4/util/Swimmer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw_week4/util/Swimming.java" afterDir="false" />
+    <list default="true" id="e3aca2d5-621f-4cdf-b288-bfdde78b06ae" name="Changes" comment="implementing interface">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw_tocheck/AbstractAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw_tocheck/Butterfly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw_tocheck/Zu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw_tocheck/Zukeeper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw_week5/_main/ZooTheZoo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw_week5/_main/_Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw_week5/entity/AbstractAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw_week5/entity/Cheetah.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw_week5/entity/Kangaroo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw_week5/entity/Panda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw_week5/entity/Zookeeper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,13 +61,24 @@
     "Application.AnotherConstructor.executor": "Run",
     "Application.Car.executor": "Run",
     "Application.CarConstructor.executor": "Run",
+    "Application.ZooTheZoo.executor": "Run",
+    "Application.Zu.executor": "Run",
     "Application._Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/macbook/IdeaProjects/hw_week3"
+    "last_opened_file_path": "/Users/macbook/IdeaProjects/hw_week3/src/main/java/hw_tocheck"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/hw_tocheck" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hw_week5.entity" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -110,13 +128,22 @@
       <option name="project" value="LOCAL" />
       <updated>1716066119245</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="implementing interface">
+      <option name="closed" value="true" />
+      <created>1716502135144</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716502135144</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="methods added" />
     <MESSAGE value="both constructors added" />
-    <option name="LAST_COMMIT_MESSAGE" value="both constructors added" />
+    <MESSAGE value="implementing interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementing interface" />
   </component>
 </project>
