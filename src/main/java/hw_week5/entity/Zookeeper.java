@@ -1,5 +1,7 @@
 package hw_week5.entity;
 
+import hw_week5.util.AbstractAnimal;
+
 public class Zookeeper {
 
     public void makeVoice(AbstractAnimal abstractAnimal) {

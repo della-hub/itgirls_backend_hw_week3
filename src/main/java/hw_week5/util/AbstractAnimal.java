@@ -1,4 +1,4 @@
-package hw_week5.entity;
+package hw_week5.util;
 
 public abstract class AbstractAnimal {
     abstract void voice();
