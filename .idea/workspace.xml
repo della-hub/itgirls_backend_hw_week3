@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3aca2d5-621f-4cdf-b288-bfdde78b06ae" name="Changes" comment="implementing interface">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw_tocheck/AbstractAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw_tocheck/Butterfly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw_tocheck/Zu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw_tocheck/Zukeeper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw_week5/_main/ZooTheZoo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw_week5/_main/_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw_week5/entity/AbstractAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw_week5/entity/Cheetah.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw_week5/entity/Kangaroo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw_week5/entity/Panda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw_week5/entity/Zookeeper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw_week6/_main/_Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw_week6/entity/DayOfTheWeek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw_week6/entity/ForMyFactorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw_week6/entity/LoopMyLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw_week6/entity/MyConditional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw_week6/entity/MyTernaryConditional.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +27,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="error_branch" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -61,6 +60,11 @@
     "Application.AnotherConstructor.executor": "Run",
     "Application.Car.executor": "Run",
     "Application.CarConstructor.executor": "Run",
+    "Application.DayOfTheWeek.executor": "Run",
+    "Application.ForMyFactorial.executor": "Run",
+    "Application.LoopMyLoop.executor": "Run",
+    "Application.MyConditional.executor": "Run",
+    "Application.MyTernaryConditional.executor": "Run",
     "Application.ZooTheZoo.executor": "Run",
     "Application.Zu.executor": "Run",
     "Application._Main.executor": "Run",
