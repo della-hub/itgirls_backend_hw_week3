@@ -1,8 +1,8 @@
-package hw_week7.entity;
+package hw_week7_1.entity;
 
 import java.util.Arrays;
 
-import static hw_week7.util.RemoveDuplicates.removeDuplicates;
+import static hw_week7_1.util.RemoveDuplicates.removeDuplicates;
 
 public class Solution {
     public static void main(String[] args) {

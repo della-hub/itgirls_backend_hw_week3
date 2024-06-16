@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3aca2d5-621f-4cdf-b288-bfdde78b06ae" name="Changes" comment="added enum as separate class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw_week7/entity/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw_week7/util/RemoveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw_week7_2/_main/_Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw_week7_2/util/BracketCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hw_week7/entity/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw_week7_1/entity/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hw_week7/util/RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw_week7_1/util/RemoveDuplicates.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,30 +53,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AnotherConstructor.executor": "Run",
-    "Application.Car.executor": "Run",
-    "Application.CarConstructor.executor": "Run",
-    "Application.DayOfTheWeek.executor": "Run",
-    "Application.ForMyFactorial.executor": "Run",
-    "Application.LoopMyLoop.executor": "Run",
-    "Application.MyConditional.executor": "Run",
-    "Application.MyTernaryConditional.executor": "Run",
-    "Application.Solution.executor": "Run",
-    "Application.ZooTheZoo.executor": "Run",
-    "Application.Zu.executor": "Run",
-    "Application._Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/macbook/IdeaProjects/hw_week3/src/main/java/hw_tocheck"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AnotherConstructor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Car.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CarConstructor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DayOfTheWeek.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ForMyFactorial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoopMyLoop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyConditional.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyTernaryConditional.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ZooTheZoo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Zu.executor&quot;: &quot;Run&quot;,
+    &quot;Application._Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/macbook/IdeaProjects/hw_week3/src/main/java/hw_tocheck&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/hw_tocheck" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="hw_week7_2._main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="hw_week5.entity" />

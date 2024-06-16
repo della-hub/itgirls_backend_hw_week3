@@ -1,7 +1,4 @@
-package hw_week7.util;
-
-import java.util.Arrays;
-
+package hw_week7_1.util;
 
 
 public class RemoveDuplicates {

@@ -1,0 +1,14 @@
+Index: src/main/java/hw_week6/_main/_Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/hw_week6/_main/_Main.java b/src/main/java/hw_week6/_main/_Main.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/hw_week6/_main/_Main.java	
+@@ -0,0 +1,4 @@
++package hw_week6._main;
++
++public class _Main {
++}
