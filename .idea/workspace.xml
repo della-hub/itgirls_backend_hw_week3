@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3aca2d5-621f-4cdf-b288-bfdde78b06ae" name="Changes" comment="added enum as separate class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw_week7_2/_main/_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw_week7_2/util/BracketCheck.java" afterDir="false" />
+    <list default="true" id="e3aca2d5-621f-4cdf-b288-bfdde78b06ae" name="Changes" comment="hw week7 Brackets">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw_week7/entity/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw_week7_1/entity/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw_week7/util/RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw_week7_1/util/RemoveDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hw_week7_1/util/RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw_week7_1/util/RemoveDuplicates.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718103207244</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="hw week7 Brackets">
+      <option name="closed" value="true" />
+      <created>1718768692537</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718768692537</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,6 +184,8 @@
     <MESSAGE value="implementing interface" />
     <MESSAGE value="hw week 6" />
     <MESSAGE value="added enum as separate class" />
-    <option name="LAST_COMMIT_MESSAGE" value="added enum as separate class" />
+    <MESSAGE value="hw week7" />
+    <MESSAGE value="hw week7 Brackets" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw week7 Brackets" />
   </component>
 </project>

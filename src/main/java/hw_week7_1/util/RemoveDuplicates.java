@@ -19,32 +19,30 @@ public class RemoveDuplicates {
 
         }
         int[] nums1 = nums;
+
+
+        int count = 1;
+
+        for (int g = 1; g < nums1.length; g++) {
+
+            if (nums1[g] != 0) {
+                nums1[count++] = nums1[g];
+            }
+
+        }
+        while (count < nums1.length) {
+            nums1[count++] = 0;
+
+        }
+
         return nums1;
+    }
+
+
 
     }
 
 
-    public static int[] pushZeroesToTheEnd(int[] nums1) {
-
-        int count = 0;
-
-        for (int i = 0; i < nums1.length; i++) {
-
-                if (nums1[i] != 0) {
-                    nums1[count++] = nums1[i];
-                }
-
-            }
-            while (count < nums1.length) {
-                nums1[count++] = 0;
-
-            }
-
-            return nums1;
-        }
-
-
-}
 
 
 
